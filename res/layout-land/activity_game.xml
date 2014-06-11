@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gamelayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background"
+    android:orientation="horizontal"
+    tools:context=".Game" >
+
+   <!--  <TextView
+        android:id="@+id/game_timerText"
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
+        android:textSize="20sp"
+        android:text="0"
+        android:layout_gravity="center"/> -->
+
+</LinearLayout>

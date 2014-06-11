@@ -1,0 +1,47 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    <!--  DIY style for button in MainMenu  -->
+    <style name="CustomButton_for_MainMenu" >
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">48dp</item>
+		<item name="android:layout_margin">4dp</item>
+		<item name="android:background">@drawable/btn_blue</item>
+		<item name="android:textColor">@color/sudoku_btn_text</item>
+		<item name="android:textSize">17sp</item>
+    </style>
+    
+    <style name="CustomButton_for_MainMenu_land" >
+        <item name="android:layout_height">48dp</item>
+		<item name="android:layout_margin">4dp</item>
+		<item name="android:background">@drawable/btn_blue</item>
+		<item name="android:textColor">@color/sudoku_btn_text</item>
+		<item name="android:textSize">17sp</item>
+    </style>
+    
+   <!--  DIY style for button in keypad  -->
+    <style name="CustomButton_for_Keypad" >
+        <item name="android:layout_height">48dp</item>
+		<item name="android:layout_margin">4dp</item>
+		<item name="android:background">@drawable/btn_blue</item>
+		<item name="android:textColor">@color/keypad_text</item>
+		<item name="android:textSize">17sp</item>
+    </style>
+
+</resources>
